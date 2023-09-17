@@ -1,0 +1,76 @@
+@import "../../../scss/vars";
+
+.viewfilm{
+    .container{
+        width: 1240px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .desc{
+        display: flex;
+        background: rgb(84,13,101);
+        background: radial-gradient(circle, rgba(84,13,101,1) 0%, rgba(84,13,101,1) 22%, rgba(79,10,89,1) 36%, rgba(63,2,54,1) 63%, rgba(62,2,52,1) 66%, rgba(60,1,48,1) 77%, rgba(15,15,15,1) 100%);
+    }
+    .poster{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        &-wrapper{
+            width: 300px;
+            height: 500px;
+            border-radius: 20px;
+        }
+    }
+    .info{
+        max-width: 500px;
+        padding: 20px 0 0 50px;
+    }
+    h2{
+        font-size: 42px;
+        font-weight: bold;
+        color: $pistachio;
+        margin-bottom: 15px;
+        text-shadow: 0 10px 5px black;
+        padding: 20px;
+        border-bottom: 1px solid $pistachio;
+    }
+    p{
+        margin-top: 45px;
+        font-size: 26px;
+        color: #ded6d6;
+        letter-spacing: .075cm;
+    }
+    .inner{
+        display: flex;
+        padding: 30px;
+    }
+    .details{
+        margin-top: 30px;
+        background-color: $black;
+        padding: 20px;
+        p{
+            font-size: 18px;
+            margin: 0;
+            margin: 10px 0;
+        }
+        span{
+            color: $pistachio;
+        }
+        .limit{
+            display: inline-block;
+            border: 2px solid $pistachio;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: 600;
+            margin-top: 25px;
+        }
+    }
+    .video{
+        padding: 40px 0;
+    }
+}

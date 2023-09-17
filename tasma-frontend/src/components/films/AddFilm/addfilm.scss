@@ -1,0 +1,77 @@
+@import "../../../scss/vars";
+
+.addfilm{
+    .container{
+        max-width: 1040px;
+        padding: 0 20px;
+        margin: 30px auto 0;
+    }
+    .row{
+        background-color: $purple;
+        border-radius: 20px;
+        display: flex;
+    }
+    .form{
+        display: flex;
+        justify-content: space-between;
+    }
+    .col-1{
+        position: relative;
+        min-width: 350px;
+        padding: 30px;
+        img{
+            position: absolute;
+            left: -50px;
+            bottom: -90px;
+        }
+    }
+    .col-2{
+        background-color: $black;
+        width: 650px;
+        border-radius: 0 20px 20px 0;
+        padding: 30px 50px;
+        .group{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    h3{
+        font-size: 32px;
+        color: $violet;
+        font-weight: bold;
+        margin-bottom: 35px;
+        text-shadow: 0 5px 10px $dark-gray;
+    }
+    input{
+        background-color: $white;
+        width: 250px;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    h4{
+        color: $white;
+        font-weight: 300;
+        letter-spacing: 0.075cm;
+        margin-bottom: 5px;
+    }
+    .btn{
+        margin-top: 15px;
+        padding: 10px 15px;
+        background-color: $violet;
+        font-weight: bold;
+        font-size: 20px;
+        margin-right: 10px;
+        border-radius: 10px;
+        color: $white;
+    }
+    .submit-btn{
+        background-color: $pistachio;
+        color: $black;
+    }
+    h2{
+        font-size: 26px;
+        font-weight: 500;
+        color: $pistachio;
+    }
+}
